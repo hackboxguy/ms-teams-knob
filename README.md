@@ -2,9 +2,9 @@
 ![ms-teams-knob-picture](/images/3key1knob.png "3key1knob-picture.")
 Alternative firmware for CH552 based [3key-1knob COTS HW](https://amzn.eu/d/6oloNJh). It is Based on [3keys-1knob-firmware](https://github.com/biemster/3keys_1knob) but modified to be used as a shortcut keys for ms-teams application
 
-- when key-1 is pressed, RGB LED's will turn ON to allow user to sync with current microphone mute state of ongoing teams-call
-- when key-2 is pressed, SHIFT+CTRL+M key is sent to the host pc and LEDs on the shortcut keys will toggle, this results into microphone mute/unmoute action if MS-Teams app is highlighted
-- when key-3 is pressed, RGB LED's will turn OFF to allow user to sync with current microphone mute state of ongoing teams-call
+- when key-1 is pressed, RGB LED's will turn ON to allow user to sync with current microphone mute/unmute state of ongoing teams-call
+- when key-2 is pressed, SHIFT+CTRL+M key is sent to the host pc and LEDs on the shortcut keys will toggle, this results into microphone mute/unmoute action if MS-Teams app is highlighted on the windows PC
+- when key-3 is pressed, RGB LED's will turn OFF to allow user to sync with current microphone mute/unmute state of ongoing teams-call
 
 ### compile:
 `$ make bin`
